@@ -1,8 +1,8 @@
-import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
-import { inject, observer } from 'mobx-react';
+import React from "react";
+import { Route, Redirect } from "react-router-dom";
+import { inject, observer } from "mobx-react";
 
-@inject('userStore', 'commonStore')
+@inject("userStore", "commonStore")
 @observer
 export default class PrivateRoute extends React.Component {
   render() {
